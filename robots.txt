@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://stahe.github.io/es-servlets-java-juin-2002/sitemap.xml
