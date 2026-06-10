@@ -57,6 +57,8 @@
     
       <link rel="stylesheet" href="stylesheets/focus.css">
     
+      <link rel="stylesheet" href="stylesheets/bidi.css">
+    
     <script>__md_scope=new URL(".",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
@@ -384,14 +386,14 @@
   
   
     <li class="md-nav__item">
-      <a href="seguimiento-de-sesion.html" class="md-nav__link">
+      <a href="seguimiento-de-la-sesion.html" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    4. Seguimiento de sesión
+    4. Seguimiento de la sesión
   
 
     
@@ -411,14 +413,14 @@
   
   
     <li class="md-nav__item">
-      <a href="la-aplicacion-de-calculo-de-impuestos.html" class="md-nav__link">
+      <a href="la-aplicacion-impots.html" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    5. La aplicación de cálculo de impuestos
+    5. La aplicación IMPOTS
   
 
     
@@ -445,7 +447,7 @@
   <span class="md-ellipsis">
     
   
-    6. XML y Java
+    6. XML y JAVA
   
 
     
@@ -529,14 +531,14 @@
   
   
     <li class="md-nav__item">
-      <a href="codigo-fuente-del-programa.html" class="md-nav__link">
+      <a href="codigo-fuente-de-los-programas.html" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    9. Código fuente del programa
+    9. Código fuente de los programas
   
 
     
@@ -563,7 +565,7 @@
   <span class="md-ellipsis">
     
   
-    10. JavaScript
+    10. Javascript
   
 
     
@@ -594,32 +596,32 @@
 
 
 <h1 id="7-continuara">7. <span style="color: #365f91">Continuará...</span></h1>
-<p>En este documento hemos proporcionado información suficiente para iniciarse en la programación web con Java. Algunos temas solo se han tratado de forma superficial y merecen un análisis más detallado:</p>
+<p>En este documento hemos proporcionado información suficiente para iniciarse en serio en la programación web en Java. Algunos temas solo se han tratado superficialmente y merecerían un análisis más profundo:</p>
 <ul>
-  <li>XML (eXtended Markup Language), CSS (Cascading Style Sheets) y XSL (eXtended Stylesheet Language)
+  <li>XML (eXtended Markup Language), Hojas de estilo CSS (Cascading Style Sheets) y XSL (eXtended Stylesheet Language)
   </li>
 </ul>
 
-<p>Hemos abordado estos temas, pero aún queda mucho por hacer. En conjunto, merecen un folleto aparte.</p>
+<p>Hemos abordado estos temas, pero aún queda mucho por hacer. Los tres merecen un folleto.</p>
 <ul>
-  <li>JavaScript
+  <li>Javascript
   </li>
 </ul>
 
-<p>Hemos utilizado algunos scripts de JavaScript aquí y allá que se ejecutan en el navegador, sin entrar nunca en detalles sobre ellos. Por ejemplo, nunca hemos profundizado en el lenguaje JavaScript. Debido a la falta de espacio y tiempo. Este lenguaje por sí solo también podría requerir un libro propio. Hemos incluido tres ejemplos significativos de JavaScript en el apéndice, de nuevo sin explicarlos. No obstante, se entienden simplemente leyendo sus comentarios y pueden servir como ejemplos.</p>
+<p>Hemos utilizado aquí y allá algunos scripts Javascript ejecutados por el navegador sin detenernos nunca en ellos. Por ejemplo, nunca hemos entrado en detalles sobre el lenguaje Javascript. Por falta de espacio y de tiempo. Este lenguaje también podría requerir un libro propio. Hemos añadido en el anexo tres ejemplos significativos en javascript, de nuevo sin explicarlos. No obstante, se comprenden con solo leer sus comentarios y pueden servir de ejemplo.</p>
 <ul>
-  <li>JavaBeans, etiquetas JSP
+  <li>Java beans, etiquetas JSP
   </li>
 </ul>
 
-<p>Hemos mostrado cómo podemos separar el código Java y el código HTML en una aplicación web. El código Java se agrupa en uno o más servlets, y el código HTML en una o más páginas JSP. Sin embargo, en nuestros ejemplos, a menudo quedaban unas pocas líneas de código Java en las páginas JSP. Podemos mejorar esto utilizando componentes llamados <strong>JavaBeans</strong> y etiquetas JSP predefinidas —o etiquetas que crees tú mismo— en las páginas JSP. Este aspecto de las páginas JSP no es esencial (nos las arreglamos perfectamente sin él en nuestros ejemplos realistas), pero no obstante es útil conocerlo.</p>
+<p>Hemos mostrado cómo se puede separar el código Java y el código HTML en una aplicación web. El código Java se agrupa en uno o varios servlets y el código HTML en una o varias páginas JSP. Sin embargo, en nuestros ejemplos, a menudo quedaban algunas líneas de código Java en las páginas JSP. Se puede mejorar esto utilizando en las páginas JSP componentes llamados <strong>Java beans</strong> y etiquetas JSP predefinidas o creadas por uno mismo  (extensiones de etiquetas). Este aspecto de las páginas JSP no es imprescindible (en nuestros ejemplos, que son realistas, hemos prescindido de él), pero resulta útil conocerlo.</p>
 <ul>
   <li>Enterprise Java Beans (EJB)
   </li>
 </ul>
 
-<p>Los EJB son componentes proporcionados por los contenedores en los que se ejecutan los servlets y las páginas JSP. Proporcionan servicios «del sistema» que ahorran al desarrollador un trabajo de desarrollo largo y difícil. Los servicios proporcionados por los EJB pueden abarcar las siguientes áreas: transacciones, seguridad, agrupación de conexiones a bases de datos, ...</p>
-<p>Todos estos temas, que no se tratan aquí, se abordan de forma excelente en el libro «J2EE Programming», publicado por WROX y distribuido por Eyrolles.</p>
+<p>Los EJB son componentes proporcionados por los contenedores en los que se ejecutan servlets y páginas JSP. Proporcionan servicios de «sistema» que evitan al desarrollador largos y difíciles desarrollos. Los servicios proporcionados por los EJB pueden abarcar los siguientes ámbitos: transacciones, seguridad, agrupación de conexiones a bases de datos, etc.</p>
+<p>Todos estos temas, que no se tratan aquí, se abordan de forma excelente en el libro «Programación J2EE», publicado por la editorial WROX y distribuido por Eyrolles.</p>
 
 
 
